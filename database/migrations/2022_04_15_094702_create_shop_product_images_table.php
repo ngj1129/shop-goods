@@ -22,7 +22,7 @@ return new class extends Migration
 
             $table->bigInteger('product_id'); // 제품 번호
             $table->string('type')->default('image');
-            $table->string('image')->nullable();
+            $table->string('image')->nullable(); # 이미지 경로
 
 
 

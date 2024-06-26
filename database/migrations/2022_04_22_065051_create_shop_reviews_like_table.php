@@ -23,6 +23,7 @@ return new class extends Migration
             // 리뷰
             $table->unsignedBigInteger('review_id')->nullable();
 
+            # 작성한 유저정보
             $table->unsignedBigInteger('user_id')->nullable();
             $table->string('username')->nullable();
             $table->string('email')->nullable();
